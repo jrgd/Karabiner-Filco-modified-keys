@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<root>
+	<item>
+		<name># ~</name>
+		<appendix></append>
+		<identifier>private.comment_and_homedir</identifier>
+		<autogen>
+		  --KeyToKey--
+		  KeyCode::BACKSLASH,
+		  KeyCode::3, ModifierFlag::SHIFT_L
+		</autogen>
+		<autogen>
+		  --KeyToKey--
+		  KeyCode::BACKSLASH, ModifierFlag::SHIFT_L,
+		  KeyCode::BACKSLASH, ModifierFlag::SHIFT_L
+		</autogen>
+	</item>
+	<item>
+		<name>| ~</name>
+		<appendix>(`) to (|~)</append>
+		<identifier>private.swap_backtick</identifier>
+		<autogen>
+		  --KeyToKey--
+		  KeyCode::BACKQUOTE, ModifierFlag::NONE,
+		  KeyCode::BACKSLASH, ModifierFlag::SHIFT_L
+		</autogen>
+		<autogen>
+		  --KeyToKey--
+		  KeyCode::BACKQUOTE, ModifierFlag::SHIFT_L,
+		  KeyCode::BACKQUOTE, ModifierFlag::SHIFT_L
+		</autogen>
+	</item>
+	<item>
+		<name>\|</name>
+		<appendix></append>
+		<identifier>private.danishdollarbyebye</identifier>
+		<autogen>
+		  --KeyToKey--
+		  KeyCode::DANISH_DOLLAR, ModifierFlag::NONE,
+		  KeyCode::BACKSLASH
+		</autogen>
+		<autogen>
+		  --KeyToKey--
+		  KeyCode::DANISH_DOLLAR, ModifierFlag::SHIFT_L,
+		  KeyCode::BACKSLASH, ModifierFlag::SHIFT_L
+		</autogen>
+	</item>
+</root>
